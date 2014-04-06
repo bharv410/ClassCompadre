@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RadioGroup
+        android1:id="@+id/radioGroup1"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignParentLeft="true"
+        android1:layout_below="@+id/startTime" >
+    </RadioGroup>
+
+    <EditText
+        android1:id="@+id/assignmentName"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignParentLeft="true"
+        android1:layout_alignParentTop="true"
+        android1:ems="10"
+        android1:hint="Enter Assignment description" />
+
+    <Button
+        android1:id="@+id/startTime"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_below="@+id/assignmentName"
+        android1:onClick="showTimePickerDialog"
+        android1:text="Edit the Time" />
+
+    <Button
+        android1:id="@+id/saveAssignment"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_above="@+id/startTime"
+        android1:layout_toRightOf="@+id/assignmentName"
+        android1:onClick="addItem"
+        android1:text="Save" />
+
+</RelativeLayout>

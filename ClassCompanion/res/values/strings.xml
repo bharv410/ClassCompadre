@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ClassCompadre</string>
+    <string name="pick_time">Class Start Time</string>
+    <string name="pick_time2">Class End Time</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>Home</item>
+        <item>View Classes</item>
+        <item>Add Assignments</item>
+        <item>All files</item>
+        <item>Upload Notes</item>
+        <item>Edit Schedule</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="title_activity_specifics">Specifics</string>
+    <string name="title_activity_camera">Camera</string>
+    <string name="title_activity_choose_picture">ChoosePicture</string>
+
+</resources>
